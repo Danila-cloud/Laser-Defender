@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d65e3c44-f170-4bab-bb26-bf090749b5b6" name="Changes" comment="" />
+    <list default="true" id="d65e3c44-f170-4bab-bb26-bf090749b5b6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/danilych/UnityProjects/Laser Defender/Assets/Scripts/EnemySpawn.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PathFinder.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -70,7 +74,7 @@
       <updated>1654871494170</updated>
       <workItem from="1654871504534" duration="1050000" />
       <workItem from="1654872579333" duration="4080000" />
-      <workItem from="1655033472655" duration="11107000" />
+      <workItem from="1655033472655" duration="15632000" />
     </task>
     <servers />
   </component>
