@@ -5,7 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy 0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy 0.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Healt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Healt.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/spaceshooter/PNG/Lasers/laserBlue07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/spaceshooter/PNG/Lasers/laserBlue07.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/spaceshooter/PNG/Lasers/laserRed07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/spaceshooter/PNG/Lasers/laserRed07.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Waves and path/Wave 0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Waves and path/Wave 0.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Waves and path/Wave 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Waves and path/Wave 1.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,10 +61,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="22582">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="29964">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="22582" />
+      <option name="pid" value="29964" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -77,7 +82,7 @@
       <updated>1654871494170</updated>
       <workItem from="1654871504534" duration="1050000" />
       <workItem from="1654872579333" duration="4080000" />
-      <workItem from="1655033472655" duration="19661000" />
+      <workItem from="1655033472655" duration="23448000" />
     </task>
     <servers />
   </component>

@@ -10,11 +10,11 @@ public class Healt : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        DamageDealer _damageDealer = GetComponent<DamageDealer>();
-        if (_damageDealer != null)
+        DamageDealer damageDealer = other.GetComponent<DamageDealer>();
+        if (damageDealer != null)
         {
-            TakeDamage(_damageDealer.GetDamage());
-            _damageDealer.Hit();
+            TakeDamage(damageDealer.GetDamage());
+            damageDealer.Hit();
         }
     }
 
