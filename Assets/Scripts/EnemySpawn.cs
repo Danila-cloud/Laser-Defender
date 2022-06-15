@@ -19,14 +19,16 @@ public class EnemySpawn : MonoBehaviour
     }
     IEnumerator SpawnEnemyWaves()
     {
-        While()
+        bool isLooping = true;
+        while(isLooping)
         {
             foreach (WaveConfig Wave in Waves)
             {
                 _waveConfig = Wave;
                 for (int i = 0; i < _waveConfig.GetEnemyCount(); i++)
                 {
-                    Instantiate(_waveConfig.GetEnemyPrefab(i), _waveConfig.GetStartingWaypoint().position, Quaternion.identity,
+                    Instantiate(_waveConfig.GetEnemyPrefab(i), _waveConfig.GetStartingWaypoint().position,
+                        Quaternion.identity,
                         transform);
                     yield return new WaitForSeconds(_waveConfig.GetRandomSpawnTime());
                 }
@@ -34,6 +36,5 @@ public class EnemySpawn : MonoBehaviour
                 yield return new WaitForSeconds(TimeBetweenWaves);
             }
         }
-        
     }
 }
