@@ -59,7 +59,7 @@ public class Player : MonoBehaviour
     private Shooter _shooter;
     void OnFire(InputValue value)
     {
-        
+        _shooter.isFiring = value.isPressed;
     }
     
 
