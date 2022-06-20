@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using OpenCover.Framework.Model;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Shooter : MonoBehaviour
 {
@@ -10,14 +11,20 @@ public class Shooter : MonoBehaviour
     [SerializeField] private float LaserSpeed = 10f;
     [SerializeField] private float LaserLifeTime = 5f;
     private float firingRate = 0.2f;
+    [SerializeField ] private bool UseAI;
 
-    public bool isFiring;
+    [SerializeField] public bool isFiring;
 
     private Coroutine fireCoroutine;
     
     private void Start()
     {
-        
+        if (UseAI == true)
+        {
+            firingRate = Random.Range(0.5f, 1.5f);
+            isFiring = true;
+            
+        }
     }
 
     private void Update()

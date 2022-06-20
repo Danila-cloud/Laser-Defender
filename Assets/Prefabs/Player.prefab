@@ -98,6 +98,8 @@ GameObject:
   - component: {fileID: 1717927102393948286}
   - component: {fileID: -5208603383085549626}
   - component: {fileID: -6047628703570411943}
+  - component: {fileID: 579134865408682529}
+  - component: {fileID: 2502968461676216872}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -218,3 +220,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+--- !u!114 &579134865408682529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5016567629822587679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deda8df71309340a297526657429c9bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LaserPrefab: {fileID: 81473300917221212, guid: 214eb47f909be4779acb3d434f3d719d, type: 3}
+  LaserSpeed: 10
+  LaserLifeTime: 5
+  UseAI: 0
+  isFiring: 0
+--- !u!114 &2502968461676216872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5016567629822587679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f94ce35be69a8450ca21faa5e8586245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
