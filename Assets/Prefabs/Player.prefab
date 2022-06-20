@@ -220,6 +220,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+  HitEffect: {fileID: 0}
+  ApplyShake: 1
 --- !u!114 &579134865408682529
 MonoBehaviour:
   m_ObjectHideFlags: 0

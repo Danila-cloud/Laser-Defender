@@ -114,6 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 50
   HitEffect: {fileID: 8303431623951691262, guid: f17b479e7056343c4a0964b8a5e0fc22, type: 3}
+  ApplyShake: 0
 --- !u!114 &2109273946414186313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,7 +130,7 @@ MonoBehaviour:
   LaserPrefab: {fileID: 4227536503756342528, guid: 52bdbd56a18994dd2806e017ad31444b, type: 3}
   LaserSpeed: 10
   LaserLifeTime: 5
-  UseAI: 0
+  UseAI: 1
   isFiring: 0
 --- !u!1 &1121773563962634139
 GameObject:
