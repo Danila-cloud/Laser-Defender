@@ -219,6 +219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d31d41f174b8e4553a90952961348809, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayer: 1
+  ScoreAdd: 0
   health: 50
   HitEffect: {fileID: 0}
   ApplyShake: 1
@@ -251,4 +253,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f94ce35be69a8450ca21faa5e8586245, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 25
