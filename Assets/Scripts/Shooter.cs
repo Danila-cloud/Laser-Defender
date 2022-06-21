@@ -16,7 +16,13 @@ public class Shooter : MonoBehaviour
     [SerializeField] public bool isFiring;
 
     private Coroutine fireCoroutine;
-    
+    private SoundPlayer _soundPlayer;
+
+    private void Awake()
+    {
+        _soundPlayer = FindObjectOfType<SoundPlayer>();
+    }
+
     private void Start()
     {
         if (UseAI == true)
@@ -56,6 +62,7 @@ public class Shooter : MonoBehaviour
             {
                 rb.velocity = transform.up * LaserSpeed;
             }
+            _soundPlayer.PlayShootingAudio();
             yield return new WaitForSeconds(firingRate);
         }
     }

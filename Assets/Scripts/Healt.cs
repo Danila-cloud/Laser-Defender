@@ -9,9 +9,11 @@ public class Healt : MonoBehaviour
     [SerializeField] private ParticleSystem HitEffect;
     private CameraShake _cameraShake;
     [SerializeField] bool ApplyShake;
+    private SoundPlayer _soundPlayer;
 
     private void Awake()
     {
+        _soundPlayer = FindObjectOfType<SoundPlayer>();
         _cameraShake = Camera.main.GetComponent<CameraShake>();
     }
 
@@ -22,6 +24,7 @@ public class Healt : MonoBehaviour
         {
             TakeDamage(damageDealer.GetDamage());
             PlayHit();
+            _soundPlayer.PlayDamageAudio();
             ShakeCamera();
             damageDealer.Hit();
         }
