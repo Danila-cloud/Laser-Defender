@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d65e3c44-f170-4bab-bb26-bf090749b5b6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Healt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Healt.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <workItem from="1655033472655" duration="24084000" />
       <workItem from="1655371552017" duration="7687000" />
       <workItem from="1655738814696" duration="7834000" />
-      <workItem from="1655903331743" duration="1746000" />
+      <workItem from="1655903331743" duration="2300000" />
     </task>
     <servers />
   </component>

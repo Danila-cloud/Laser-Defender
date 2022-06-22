@@ -48,6 +48,7 @@ public class Healt : MonoBehaviour
             }
             Destroy(gameObject);
         }
+        Debug.Log(health);
     }
 
     void PlayHit()
