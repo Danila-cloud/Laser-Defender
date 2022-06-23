@@ -13,6 +13,7 @@ public class Healt : MonoBehaviour
     [SerializeField] bool ApplyShake;
     private SoundPlayer _soundPlayer;
     private ScoreKeeping _scoreKeeping;
+    private LevelManager _levelManager;
     public int GetHealth()
     {
         return health;
@@ -22,6 +23,7 @@ public class Healt : MonoBehaviour
         _soundPlayer = FindObjectOfType<SoundPlayer>();
         _cameraShake = Camera.main.GetComponent<CameraShake>();
         _scoreKeeping = FindObjectOfType<ScoreKeeping>();
+        _levelManager = FindObjectOfType<LevelManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -45,6 +47,10 @@ public class Healt : MonoBehaviour
             if (!isPlayer)
             {
                 _scoreKeeping.ModifyScore(ScoreAdd);
+            }
+            else
+            {
+                _levelManager.LoadEndMenu();
             }
             Destroy(gameObject);
         }
