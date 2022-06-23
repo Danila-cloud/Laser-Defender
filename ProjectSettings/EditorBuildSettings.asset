@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/EndMenu.unity
-    guid: 46e5b22bb4e78442a9b10f7aea174231
+    path: Assets/Scenes/MainMenu.unity
+    guid: ff5ca1543be49408bae65295982d0adb
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: ff5ca1543be49408bae65295982d0adb
+    path: Assets/Scenes/EndMenu.unity
+    guid: 46e5b22bb4e78442a9b10f7aea174231
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0d75005abd5bf4eada9423ad2938c3b0, type: 2}

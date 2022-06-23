@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d65e3c44-f170-4bab-bb26-bf090749b5b6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/pricedown bl SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/pricedown bl SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EndMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EndMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Healt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Healt.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreKeeping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreKeeping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundPlayer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +85,7 @@
       <workItem from="1655371552017" duration="7687000" />
       <workItem from="1655738814696" duration="7834000" />
       <workItem from="1655903331743" duration="2923000" />
-      <workItem from="1655986866180" duration="3396000" />
+      <workItem from="1655986866180" duration="6563000" />
     </task>
     <servers />
   </component>

@@ -42,7 +42,7 @@ public class Healt : MonoBehaviour
     private void TakeDamage(int damage)
     {
         health -= damage;
-        if (health == 0)
+        if (health <= 0)
         {
             if (!isPlayer)
             {

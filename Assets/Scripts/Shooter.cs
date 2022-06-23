@@ -63,6 +63,7 @@ public class Shooter : MonoBehaviour
                 rb.velocity = transform.up * LaserSpeed;
             }
             _soundPlayer.PlayShootingAudio();
+
             yield return new WaitForSeconds(firingRate);
         }
     }

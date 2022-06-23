@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class SoundPlayer : MonoBehaviour
@@ -12,6 +14,27 @@ public class SoundPlayer : MonoBehaviour
     private AudioClip damageSound;
     [SerializeField] [Range(0, 1)] private float DamageVolume;
     
+    private static SoundPlayer instance;
+
+    private void Awake()
+    {
+        ManageSingleton();
+    }
+
+    void ManageSingleton()
+    {
+        if (instance != null)
+        {
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
     public void PlayShootingAudio()
     {
         if (shooting != null)

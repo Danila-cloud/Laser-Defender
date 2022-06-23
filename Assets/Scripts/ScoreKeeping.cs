@@ -6,6 +6,27 @@ public class ScoreKeeping : MonoBehaviour
 {
     private int Score;
 
+    private static ScoreKeeping instance;
+
+    private void Awake()
+    {
+        ManageSingleton();
+    }
+
+    void ManageSingleton()
+    {
+        if (instance != null)
+        {
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+    
     public int GetScore()
     {
         return Score;
